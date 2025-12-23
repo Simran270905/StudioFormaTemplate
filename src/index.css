@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: cronde;
+  src: url("./assets/fonts/crondeitalic.ttf");
+}
+
+@font-face {
+  font-family: crondereg;
+  src: url("./assets/fonts/cronderegular.ttf");
+}
+
+@font-face {
+  font-family: PlayFair;
+  src: url("./assets/fonts/PlayfairDisplayRegular.ttf");
+}
+
+@font-face {
+  font-family: oliver;
+  src: url("./assets/fonts/OliveraDemo.ttf");
+}
+
+@font-face {
+  font-family: transcity;
+  src: url("./assets/fonts/Transcity.otf");
+}
+
+@theme{
+  --font-cronde:cronde;
+  --font-crondereg:crondereg;
+  --font-playfair:PlayFair;
+  --font-oliver:oliver;
+  --font-transcity:transcity;
+}
