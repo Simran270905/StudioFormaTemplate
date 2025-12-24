@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Manifesto = () => {
   return (
-    <section className="py-32 px-10 md:px-24">
+    <section className="py-20 px-10 md:px-24">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

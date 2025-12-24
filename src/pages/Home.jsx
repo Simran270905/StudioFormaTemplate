@@ -6,6 +6,7 @@ import Process from "../components/Process";
 import Stats from "../components/Stats";
 import Studio from "../components/Studio";
 import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Process />
       <Stats />
       <Studio />
+      <ContactForm/>
       <Footer />
     </div>
   );

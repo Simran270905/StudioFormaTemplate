@@ -3,7 +3,7 @@ import studio from "../assets/images/studio.jpg"
 
 const Studio = () => {
   return (
-    <section className="py-32 px-10 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+    <section className="py-15 px-10 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
       <motion.div
         initial={{ opacity: 0, x: -40 }}
         whileInView={{ opacity: 1, x: 0 }}
