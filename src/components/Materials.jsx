@@ -9,21 +9,21 @@ const materials = [
     desc: "Warmth, tactility and timeless craftsmanship.",
     img: wood,
     accent: "from-[#C9B58B] to-[#8F7A4A]", // warm
-    offset: "md:mt-0",
+    
   },
   {
     title: "Stone",
     desc: "Grounded surfaces shaped by nature and precision.",
     img: stone,
     accent: "from-[#A7A7A7] to-[#6F6F6F]", // neutral
-    offset: "md:mt-16",
+    
   },
   {
     title: "Light",
     desc: "An architectural element that defines space.",
     img: light,
     accent: "from-[#EFE6C8] to-[#C9B58B]", // luminous
-    offset: "md:mt-8",
+    
   },
 ];
 

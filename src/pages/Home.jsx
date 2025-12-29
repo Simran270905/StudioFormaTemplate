@@ -7,7 +7,6 @@ import Stats from "../components/Stats";
 import Studio from "../components/Studio";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
-
 const Home = () => {
   return (
     <div className="bg-[#F7F6F4] text-[#1C1C1C]">
@@ -19,6 +18,7 @@ const Home = () => {
       <Stats />
       <Studio />
       <ContactForm/>
+      
       <Footer />
     </div>
   );

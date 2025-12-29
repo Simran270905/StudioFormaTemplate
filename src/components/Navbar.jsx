@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { label: "Projects", href: "#projects" },
@@ -24,7 +25,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Links */}
-          <div className="hidden md:flex items-center gap-10 text-sm ">
+          <div className="hidden md:flex items-center gap-10 text-sm">
             {navLinks.map((link, i) => (
               <a
                 key={i}
@@ -35,6 +36,15 @@ const Navbar = () => {
                 <span className="absolute left-0 -bottom-1 h-[1px] w-0 bg-[#1C1C1C] group-hover:w-full transition-all duration-300" />
               </a>
             ))}
+
+            {/* Try Route */}
+            <Link
+              to="/try"
+              className="relative group text-[#1C1C1C] font-playfair"
+            >
+              Theme
+              <span className="absolute left-0 -bottom-1 h-[1px] w-0 bg-[#1C1C1C] group-hover:w-full transition-all duration-300" />
+            </Link>
           </div>
 
           {/* Mobile Toggle */}
@@ -70,7 +80,7 @@ const Navbar = () => {
                 </button>
               </div>
 
-              <div className="flex flex-col gap-8 text-2xl ">
+              <div className="flex flex-col gap-8 text-2xl">
                 {navLinks.map((link, i) => (
                   <a
                     key={i}
@@ -80,6 +90,14 @@ const Navbar = () => {
                     {link.label}
                   </a>
                 ))}
+
+                {/* Try Route (Mobile) */}
+                <Link
+                  to="/try"
+                  onClick={() => setOpen(false)}
+                >
+                  Try
+                </Link>
               </div>
 
               <p className="text-xs text-[#6B6B6B]">
