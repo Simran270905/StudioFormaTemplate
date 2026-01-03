@@ -3,6 +3,20 @@ import { motion } from "framer-motion";
 import { FiChevronLeft, FiChevronRight, FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import sofa from "../../public/images/sofa.png";
+import tablelamp from "../../public/images/tablelamp.png";
+import tree from "../../public/images/tree.png";
+import painting from "../../public/images/painting.png";
+import bed2 from "../../public/images/bed2.png";
+import lamp2 from "../../public/images/lamp2.png";
+import nightable from "../../public/images/nightable.png";
+import decorpiece from "../../public/images/decorpiece.png";
+import sofa2 from "../../public/images/sofa2.png";
+import table2 from "../../public/images/table.png";
+import wallshelf from "../../public/images/wallshelf.png";
+import plant from "../../public/images/plant.png";
+
+
 
 const interiors = [
   {
@@ -15,10 +29,10 @@ const interiors = [
     description:
       "A refined monochrome living space designed with balanced geometry, muted textures, and warm materials for a timeless look.",
     elements: [
-      { src: "/public/images/sofa.png", name: "Sofa", material: "Solid wood frame", finish: "Premium fabric upholstery", top: "15%", left: "25%", size: 300, opacity: 1 },
-      { src: "/public/images/tablelamp.png", name: "Floor Lamp", material: "Brushed metal", finish: "Warm matte gold", top: "22%", left: "60%", size: 180, opacity: 0.9 },
-      { src: "/public/images/tree.png", name: "Indoor Plant", material: "Ceramic pot", finish: "Natural clay", top: "15%", left: "5%", size: 200, opacity: 0.8 },
-      { src: "/public/images/painting.png", name: "Painting", material: "Canvas", finish: "Paint", top: "10%", left: "35%", size: 100, opacity: 1 },
+      { src: sofa, name: "Sofa", material: "Solid wood frame", finish: "Premium fabric upholstery", top: "15%", left: "25%", size: 300, opacity: 1 },
+      { src: tablelamp, name: "Floor Lamp", material: "Brushed metal", finish: "Warm matte gold", top: "22%", left: "60%", size: 180, opacity: 0.9 },
+      { src: tree, name: "Indoor Plant", material: "Ceramic pot", finish: "Natural clay", top: "15%", left: "5%", size: 200, opacity: 0.8 },
+      { src: painting, name: "Painting", material: "Canvas", finish: "Paint", top: "10%", left: "35%", size: 100, opacity: 1 },
     ],
   },
   {
@@ -31,10 +45,10 @@ const interiors = [
     description:
       "An earthy villa interior blending stone textures, warm lighting, and handcrafted furniture.",
     elements: [
-      { src: "/public/images/bed2.png", name: "Bed", material: "Solid wood frame", finish: "Leather upholstery", top: "20%", left: "25%", size: 250, opacity: 1 },
-      { src: "/public/images/lamp2.png", name: "Floor Lamp", material: "Brushed metal", finish: "Matte gold", top: "10%", left: "55%", size: 180, opacity: 0.9 },
-      { src: "/public/images/nightable.png", name: "Accent Chair", material: "Oak frame", finish: "Fabric cover", top: "15%", left: "2%", size: 200, opacity: 0.85 },
-      { src: "/public/images/decorpiece.png", name: "Decor Piece", material: "Silver", finish: "Glossy", top: "11.5%", left: "14%", size: 90, opacity: 0.8 },
+      { src:bed2, name: "Bed", material: "Solid wood frame", finish: "Leather upholstery", top: "20%", left: "25%", size: 250, opacity: 1 },
+      { src: lamp2, name: "Floor Lamp", material: "Brushed metal", finish: "Matte gold", top: "10%", left: "55%", size: 180, opacity: 0.9 },
+      { src: nightable, name: "Accent Chair", material: "Oak frame", finish: "Fabric cover", top: "15%", left: "2%", size: 200, opacity: 0.85 },
+      { src: decorpiece, name: "Decor Piece", material: "Silver", finish: "Glossy", top: "11.5%", left: "14%", size: 90, opacity: 0.8 },
     ],
   },
   {
@@ -47,10 +61,10 @@ const interiors = [
     description:
       "A minimalist studio that focuses on proportion, negative space, and natural daylight.",
     elements: [
-      { src: "/public/images/sofa2.png", name: "Sofa", material: "Metal frame", finish: "Fabric upholstery", top: "15%", left: "25%", size: 300, opacity: 1 },
-      { src: "/public/images/table.png", name: "Table Lamp", material: "Metal", finish: "Matte black", top: "30%", left: "70%", size: 180, opacity: 0.9 },
-      { src: "/public/images/wallshelf.png", name: "Bookshelf", material: "Wood", finish: "Walnut veneer", top: "0%", left: "30%", size: 200, opacity: 0.85 },
-      { src: "/public/images/plant.png", name: "Plant", material: "Indoor Ceramic Pot", finish: "Design carving", top: "0%", left: "0%", size: 200, opacity: 0.85 },
+      { src: sofa2, name: "Sofa", material: "Metal frame", finish: "Fabric upholstery", top: "15%", left: "25%", size: 300, opacity: 1 },
+      { src: table2, name: "Table Lamp", material: "Metal", finish: "Matte black", top: "30%", left: "70%", size: 180, opacity: 0.9 },
+      { src: wallshelf, name: "Bookshelf", material: "Wood", finish: "Walnut veneer", top: "0%", left: "30%", size: 200, opacity: 0.85 },
+      { src: plant, name: "Plant", material: "Indoor Ceramic Pot", finish: "Design carving", top: "0%", left: "0%", size: 200, opacity: 0.85 },
     ],
   },
 ];
