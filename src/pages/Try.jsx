@@ -15,12 +15,14 @@ import sofa2 from "../../public/images/sofa2.png";
 import table2 from "../../public/images/table.png";
 import wallshelf from "../../public/images/wallshelf.png";
 import plant from "../../public/images/plant.png";
-
+import interior1 from "../../public/images/interior1.jpg";
+import interior2 from "../../public/images/interior2.jpg";
+import interior3 from "../../public/images/interior3.jpg";
 
 
 const interiors = [
   {
-    src: "/public/images/interior1.jpg",
+    src: interior1,
     color: "#D4C7AF",
     fontColor: "#5A3735",
     opacity: 0.6,
@@ -36,7 +38,7 @@ const interiors = [
     ],
   },
   {
-    src: "/images/interior2.jpg",
+    src: interior2,
     color: "#676F53",
     fontColor: "#F5E9D3",
     opacity: 0.6,
@@ -52,7 +54,7 @@ const interiors = [
     ],
   },
   {
-    src: "/public/images/interior3.jpg",
+    src: interior3,
     color: "#3A5059",
     fontColor: "#F5F5F2",
     opacity: 0.5,
